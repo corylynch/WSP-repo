@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang = 'en'>
+
+<head>
+	<meta charset = 'utf-8'>
+	<title>Lokal Bands</title>
+	<link rel = 'stylesheet' href = 'css/styles.css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<nav>
+	<div class = 'container'>
+		<div id = 'logo'>
+			<a href = 'index.html'>
+				<img src = 'images/lokal-logo.png'>
+			</a>
+		</div>
+		<div id = 'nav'>
+			<ul>
+				<li><a href = 'shows.html'>Shows</a></li>
+				<li><a href = 'artists.html'>Artists</a></li>
+				<li><a href = 'venues.html'>Venues</a></li>
+				<li id = 'search'><input type = 'text' placeholder = 'Search'></li>
+				<li><a href = 'sign-up.html'>Sign Up</a></li>
+				<li><a href = 'login.html'>Log in</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class = 'container'>
+    <div class = 'sixteen columns'>
+        <div id = 'login-wrapper'>
+            <div class = 'login'>
+                <h3>Log in</h3>
+                <p>Log in to continue.</p>
+                <form action = 'index-logged-in.html'>
+                    <label for = 'username-login'>Username</label>
+                    <input type = 'text' id = 'username-login' placeholder = 'Username' autofocus>
+                    <label for = 'password'>Password</label>
+                    <input type = 'password' id = 'password' placeholder = 'Password'>
+                    <input type = 'submit' id = 'submit-login' value = 'Log In'>
+                </form>
+                <a href = 'forgot.html'>Forgot your password?</a>
+                <p>Don't have an account? <a href = 'sign-up.html'>Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+    <div class = 'sixteen columns'>
+        <div class = 'fb-login'>
+            <p>OR</p>
+            <div id = 'fb-button'>
+                <a href = '#'>Log in with Facebook</a>
+            </div>
+            <p>It's super fast and super easy.</p>
+        </div>
+    </div>
+</div>
+
+<footer class = 'fix'>
+	<div class = 'container'>
+		<p>&copy; Lokal Bands 2014</p>
+	</div>
+</footer>
+
+</body>
+
+</html>

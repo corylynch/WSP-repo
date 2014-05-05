@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang = 'en'>
+
+<head>
+	<meta charset = 'utf-8'>
+	<title>Lokal Bands</title>
+	<link rel = 'stylesheet' href = 'css/styles.css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<nav>
+	<div class = 'container'>
+		<div id = 'logo'>
+			<a href = 'index.html'>
+				<img src = 'images/lokal-logo.png'>
+			</a>
+		</div>
+		<div id = 'nav'>
+			<ul>
+				<li><a href = 'shows.html'>Shows</a></li>
+				<li><a href = 'artists.html'>Artists</a></li>
+				<li><a href = 'venues.html'>Venues</a></li>
+				<li id = 'search'><input type = 'text' placeholder = 'Search'></li>
+				<li><a href = 'sign-up.html'>Sign Up</a></li>
+				<li><a href = 'login.html'>Log in</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class = 'container'>
+	<div id = 'purchase-title'>
+		<h1>Buy Tickets</h1>
+		<h3><a href = 'artist-profile.html'>Artist name</a> at <a href = 'venue-profile.html'>Venue name</a> <br> 7pm - 9pm</h3>
+	</div>
+	<div id = 'purchase-container'>
+		<form action = 'paid.html'>
+			<h4>Purchase Info</h4>
+			<div id = 'basic'>
+				<label for = 'credit-card'>Credit Card Number</label>
+				<input type = 'text' name = 'credit-card'>
+				<label for = 'exp-date'>Expiration Date</label>
+				<input type = 'text' name = 'exp-date' placeholder = 'MM/YY'>
+				<label for = 'name'>Name on card</label>
+				<input type = 'text' name = 'name'>
+				<label for = 'sec-code'>Security code</label>
+				<input type = 'text' name = 'sec-code'>
+				<label for = 'email'>Email</label>
+				<input type = 'text' name = 'email'>
+			</div>
+			<div id = 'location'>
+				<label for = 'address1'>Address line 1</label>
+				<input type = 'text' name = 'address1'>
+				<label for = 'address2'>Address line 2</label>
+				<input type = 'text' name = 'address2'>
+				<label for = 'city'>City</label>
+				<input type = 'text' name = 'city'>
+				<label for = 'state'>State</label>
+				<input type = 'text' name = 'state'>
+				<label for = 'zip'>Zip Code</label>
+				<input type = 'text' name = 'zip'>
+			</div>
+			<input type = 'submit' value = 'Submit'>
+
+		</form>
+	</div>
+
+</div>
+
+	<footer>
+		<div class = 'container'>
+			<p>&copy; Lokal Bands 2014</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
